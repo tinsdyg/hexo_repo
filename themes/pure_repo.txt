@@ -1,0 +1,1 @@
+https://github.com/cofess/hexo-theme-pure.git
