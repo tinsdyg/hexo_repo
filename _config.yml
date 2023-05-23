@@ -3,18 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Code Home
+title: 好家伙的博客
 subtitle: 'Cherish the Past'
 description: 'Just Something'
 keywords:
 author: __Cloud_9__
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
+favicon: https://github.com/favicon.ico
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://tinsdyg.github.io
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -97,7 +98,8 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: pure
+# theme: pure
+theme: volantis
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
